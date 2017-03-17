@@ -1,0 +1,55 @@
+* {
+	box-sizing: border-box;
+}
+
+body{
+	font-family: Roboto;
+	background:#455A64;
+	
+}
+
+main{
+	width:50%;
+	margin: 30px auto;
+}
+
+aside{
+	border-radius:3px;
+	padding: 40px;
+	box-shadow: 1px 2px 4px 1px rgba(0, 0, 0, 0.2);
+	background-color: #F0F7EE;
+}
+
+article{
+	background-color: #F0F7EE;
+	box-shadow: 1px 2px 4px 1px rgba(0, 0, 0, 0.2);
+	padding: 30px;
+	margin-top:10px;
+	border-radius:3px;
+}
+address{
+	line-height: 60%;
+}
+
+.card-header-title {
+
+	color:#6ABEA7;
+}
+
+.competence{
+	display:flex;
+}
+.competence-card{
+	flew-grow:1;
+	
+}
+
+.competence-card:not(:last-child){
+	margin-right: 10px;
+}
+
+
+
+footer {
+	background-color: lightgrey;
+}
